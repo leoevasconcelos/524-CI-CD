@@ -1,7 +1,7 @@
 Laboratório - 524 - Integração e Entrega Continua com Git, Jenkins, Nexus e SonarQuebe
 =============================
 
-Repositório para armazenar o Laboratório do curso de Integração e Entrega Continua com Git, Jenkins, Nexus e SonarQuebe da [4Linux][1]
+Repositório para armazenar o Laboratório do curso de Integração e Entrega Continua com Git, Jenkins, Nexus e SonarQuebe.
 
 Dependências
 ------------
