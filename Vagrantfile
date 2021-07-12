@@ -4,10 +4,10 @@
 box = "debian/buster64"
 
 machines = {
-  "cicd"       => {"memory"=>"1536", "cpus"=>"1", "ip" => "10" , "installDocker" => "yes"},
-  "cicd-tools" => {"memory"=>"3072", "cpus"=>"1", "ip" => "20" , "installDocker" => "yes"},
-  "homolog"    => {"memory"=>"512" , "cpus"=>"1", "ip" => "30" , "installDocker" => "yes"},
-  "production" => {"memory"=>"512" , "cpus"=>"1", "ip" => "40" , "installDocker" => "yes"},
+  "cicd"       => {"memory"=>"3072", "cpus"=>"1", "ip" => "10" , "installDocker" => "yes"},
+  "cicd-tools" => {"memory"=>"5120", "cpus"=>"1", "ip" => "20" , "installDocker" => "yes"},
+  "homolog"    => {"memory"=>"1024" , "cpus"=>"1", "ip" => "30" , "installDocker" => "yes"},
+  "production" => {"memory"=>"1024" , "cpus"=>"1", "ip" => "40" , "installDocker" => "yes"},
 }
 
 Vagrant.configure("2") do |config|
